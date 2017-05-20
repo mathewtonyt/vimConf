@@ -24,3 +24,7 @@ set hlsearch
 "nerd tree config
 autocmd StdinReadPre * let s:std_in=1
 autocmd vimenter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+### install the following plugin from vim awesome
+ctrlp.vim                  mru.vim                    vim-airline                vim-cpp                    vim-easygrep               vimshell.vim
+molokai                    nerdtree                   vim-colors-solarized       vim-cpp-enhanced-highlight vim-javascript             youcompleteme
